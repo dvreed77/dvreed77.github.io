@@ -1,0 +1,2 @@
+webpackJsonp([46905772972982],{377:function(i,t){i.exports={data:{markdownRemark:{html:"<p>This is a painting I did of Santorini</p>",frontmatter:{title:"Santorini",date:"2017-10-06",image:{publicURL:"/static/painting1-60905d0ced07df3d6eecfa2ea1ea9220.png"}},fields:{path:"paintings/painting1.5.md",slug:"/paintings/painting1.5.html"}}},pathContext:{slug:"/paintings/painting1.5.html"}}}});
+//# sourceMappingURL=path---paintings-painting-1-5-html-6bdaee9c2384c5e97caf.js.map
