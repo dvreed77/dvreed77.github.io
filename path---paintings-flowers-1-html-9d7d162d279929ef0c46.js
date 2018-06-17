@@ -1,0 +1,2 @@
+webpackJsonp([0x6e7a6edb1a5f],{404:function(t,e){t.exports={data:{markdownRemark:{html:"<p>This is one of the very first paintings I did with Rosetta.</p>",frontmatter:{title:"Flowers",date:"2011-10-01",image:{publicURL:"/static/flowers1-55f04cba64d89256f7005bf85b629e71.JPG",childImageSharp:{resize:{src:"/static/flowers1-55f04cba64d89256f7005bf85b629e71-648b2.jpg"}}}},fields:{path:"paintings/flowers1.md",slug:"/paintings/flowers1.html"}}},pathContext:{slug:"/paintings/flowers1.html"}}}});
+//# sourceMappingURL=path---paintings-flowers-1-html-9d7d162d279929ef0c46.js.map
