@@ -1,0 +1,231 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/component---src-templates-blog-js.1ad3b13b0dc5eb7bab2e.css">code[class*=language-],pre[class*=language-]{-moz-hyphens:none;-moz-tab-size:4;-ms-hyphens:none;-o-tab-size:4;-webkit-hyphens:none;color:#34525d;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;hyphens:none;line-height:1.5;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal;word-wrap:normal}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{background:#e7faff}pre[class*=language-]{border-left:2px solid #b7d6ec;margin:2em 0 2em -18px;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:#fff}:not(pre)>code[class*=language-]{padding:.1em}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#93a1a1}.token.punctuation{color:#586e75}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#268bd2}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string,.token.url{color:#2aa198}.token.entity{background:#eee8d5;color:#657b83}.token.atrule,.token.attr-value,.token.keyword{color:#859900}.token.function{color:#b58900}.token.important,.token.regex,.token.variable{color:#cb4b16}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-style:normal;font-weight:400}body{overflow-x:hidden;position:relative}*{margin:0;padding:0}*,:after,:before{box-sizing:inherit}a{color:inherit;text-decoration:none}ol,ul{list-style:none}img{display:inline-block;vertical-align:top}code,pre{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}
+
+/*# sourceMappingURL=component---src-templates-blog-js.1ad3b13b0dc5eb7bab2e.css.map*/</style><style data-styled-components="QsHMX dEdrdx dRFhnQ">
+/* sc-component-id: sc-bdVaJa */
+.QsHMX{margin:0 auto;width:70%;padding:30px;padding-top:30px;} @media (max-width:700px){.QsHMX{width:95%;}}
+/* sc-component-id: sc-htpNat */
+.dRFhnQ a{color:steelblue;font-weight:500;} .dRFhnQ a:hover{-webkit-text-decoration:underline;text-decoration:underline;} .dRFhnQ a.anchor{color:inherit;fill:steelblue;-webkit-text-decoration:none;text-decoration:none;border-bottom:none;box-shadow:none;} .dRFhnQ p{margin:0 auto;margin-top:30px;font-size:17px;line-height:1.7;} .dRFhnQ ul{list-style:disc;margin-top:20px;font-size:16px;color:#1a1a1a;padding-left:20px;} .dRFhnQ ul li{margin-top:10px;} .dRFhnQ h3 + p,.dRFhnQ h3 + p:first-of-type{margin-top:20px;} .dRFhnQ h1{line-height:1.2;} .dRFhnQ h2{border-bottom:1px solid #ddd;margin-top:44px;padding-top:10px;line-height:1.2;} .dRFhnQ h2:first-child{border-top:0;margin-top:0;padding-top:0;} .dRFhnQ h2 [media.lessThan('large')]:{fontSize:20,;} .dRFhnQ h2,.dRFhnQ h2 [media.greaterThan('xlarge')]:{fontSize:35,;} .dRFhnQ,.dRFhnQ hr + h2{border-top:0;margin-top:0;} .dRFhnQ h3{font-weight:400;font-size:22px;padding-top:45px;} .dRFhnQ h3 [media.lessThan('small')]:{wordBreak:'break-all',;} .dRFhnQ h3,.dRFhnQ h3 [media.greaterThan('xlarge')]:{fontSize:25, lineHeight:1.3,;} .dRFhnQ h2 + h3,.dRFhnQ h2 + h3:first-of-type{padding-top:30px;} .dRFhnQ h4{font-size:18px;color:#555;line-height:1.3;margin-top:20px;margin-bottom:20px;font-weight:200;} .dRFhnQ h4 + p{margin-top:20px;} .dRFhnQ table{max-width:80%;margin:2em auto;} .dRFhnQ thead{background-color:#2aa198;color:#fff;padding:2px;} .dRFhnQ thead th{padding:.5em;width:100px;}
+/* sc-component-id: sc-bxivhb */
+.dEdrdx{margin-bottom:30px;} .dEdrdx h1{margin-bottom:10px;} .dEdrdx li span{font-weight:500;margin-right:10px;} .dEdrdx a{color:steelblue;font-weight:500;} .dEdrdx a:hover{-webkit-text-decoration:underline;text-decoration:underline;}</style><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><title data-react-helmet="true">Blog</title><meta data-react-helmet="true" property="og:title" content="Blog"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:url" content="dave"/><meta data-react-helmet="true" property="og:image" content="/logo-og.png"/><meta data-react-helmet="true" property="fb:app_id" content="623268441017527"/><link as="script" rel="preload" href="/component---src-templates-blog-js-cbd75d64400166cb7f86.js"/><link as="script" rel="preload" href="/app-af3e394e773b5f1704bd.js"/><link as="script" rel="preload" href="/1-01b63e31a580fc19309e.js"/><link as="script" rel="preload" href="/0-3252ac5db1fa2fd4f5cb.js"/><link as="script" rel="preload" href="/webpack-runtime-15e7f833d9a23aec4832.js"/><link rel="preload" href="/static/d/904/path---blog-2018-08-10-breweries-by-state-html-ba-0-bca-VAmQEkinVRL9UurZnfOvTRPeXGw.json" as="fetch" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="sc-bdVaJa QsHMX"><header style="margin-bottom:1.5rem"><a style="text-shadow:none;background-image:none" href="/"><h3 style="display:inline">Dave Reed</h3></a><ul style="list-style:none;float:right"><li style="display:inline-block;margin-right:1rem"><a href="/">Home</a></li><li style="display:inline-block;margin-right:1rem"><a href="/about/">About</a></li><li style="display:inline-block;margin-right:1rem"><a href="/paintings/">Paintings</a></li></ul></header><div><div class="sc-bxivhb dEdrdx"><h1>Which US cities have the most breweries?</h1></div><div class="sc-htpNat dRFhnQ"><table>
+<thead>
+<tr>
+<th align="center"><strong>City</strong></th>
+<th align="center"><strong>State</strong></th>
+<th align="center"><strong>Count</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Portland</td>
+<td align="center">Oregon</td>
+<td align="center">80</td>
+</tr>
+<tr>
+<td align="center">Denver</td>
+<td align="center">Colorado</td>
+<td align="center">77</td>
+</tr>
+<tr>
+<td align="center">San Diego</td>
+<td align="center">California</td>
+<td align="center">74</td>
+</tr>
+<tr>
+<td align="center">Chicago</td>
+<td align="center">Illinois</td>
+<td align="center">69</td>
+</tr>
+<tr>
+<td align="center">Seattle</td>
+<td align="center">Washington</td>
+<td align="center">67</td>
+</tr>
+<tr>
+<td align="center">Austin</td>
+<td align="center">Texas</td>
+<td align="center">43</td>
+</tr>
+<tr>
+<td align="center">Albuquerque</td>
+<td align="center">New Mexico</td>
+<td align="center">40</td>
+</tr>
+<tr>
+<td align="center">San Francisco</td>
+<td align="center">California</td>
+<td align="center">37</td>
+</tr>
+<tr>
+<td align="center">Minneapolis</td>
+<td align="center">Minnesota</td>
+<td align="center">36</td>
+</tr>
+<tr>
+<td align="center">Indianapolis</td>
+<td align="center">Indiana</td>
+<td align="center">35</td>
+</tr>
+<tr>
+<td align="center">Asheville</td>
+<td align="center">North Carolina</td>
+<td align="center">30</td>
+</tr>
+<tr>
+<td align="center">Los Angeles</td>
+<td align="center">California</td>
+<td align="center">29</td>
+</tr>
+<tr>
+<td align="center">Milwaukee</td>
+<td align="center">Wisconsin</td>
+<td align="center">28</td>
+</tr>
+<tr>
+<td align="center">Brooklyn</td>
+<td align="center">New York</td>
+<td align="center">26</td>
+</tr>
+<tr>
+<td align="center">Saint Louis</td>
+<td align="center">Missouri</td>
+<td align="center">26</td>
+</tr>
+<tr>
+<td align="center">Cincinnati</td>
+<td align="center">Ohio</td>
+<td align="center">26</td>
+</tr>
+<tr>
+<td align="center">Nashville</td>
+<td align="center">Tennessee</td>
+<td align="center">25</td>
+</tr>
+<tr>
+<td align="center">Columbus</td>
+<td align="center">Ohio</td>
+<td align="center">25</td>
+</tr>
+<tr>
+<td align="center">Colorado Springs</td>
+<td align="center">Colorado</td>
+<td align="center">25</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>I was recently having a discussion with a friend about which city had the most breweries. I couldn't find anything on the internet that was able to answer that simple question. I decided to use this as an opportuntity for a little project. </p>
+<h2 id="gather-data"><a href="#gather-data" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gather Data</h2>
+<p>I decided to use BeerAdvocate as my source. I was almost certain there was an API for BeerAdvocate, but there wasn't, so I had to scrap their listings page, which was easy enough.</p>
+<p>I saved off the HTML files, so I didn't have to scrape more than I needed to.</p>
+<div class="gatsby-highlight" data-language="python">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">for</span> p <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1510</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    params <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token string">'start'</span><span class="token punctuation">:</span> <span class="token number">20</span><span class="token operator">*</span>p<span class="token punctuation">,</span>
+        <span class="token string">'c_id'</span><span class="token punctuation">:</span> <span class="token string">'US'</span>
+    <span class="token punctuation">}</span>
+    page <span class="token operator">=</span> requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'https://www.beeradvocate.com/place/list'</span><span class="token punctuation">,</span> params<span class="token operator">=</span>params<span class="token punctuation">)</span>
+
+    <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span>f<span class="token string">'./beer_advocate/page_{p}.html'</span><span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> fid<span class="token punctuation">:</span>
+        fid<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>page<span class="token punctuation">.</span>content<span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<p>I then used lxml and some xpath magic to pull the relevant data.</p>
+<div class="gatsby-highlight" data-language="python">
+      <pre class="language-python"><code class="language-python">get_name <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">'./td[1]'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text_content<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>get_name<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_address <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">"./td[1]/text()"</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>get_address<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_zip <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">"./td[1]/text()"</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">', '</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_zip<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_city <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token string">" "</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">"./td[1]/a[1]/text()"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_city<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_state <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token string">" "</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">"./td[1]/a[2]/text()"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_state<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_country <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token string">" "</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">"./td[1]/a[3]/text()"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_country<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_score <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">'./td[2]'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text_content<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_score<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_ratings <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">'./td[3]'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text_content<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_ratings<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_beer_avg <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">'./td[4]'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text_content<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_beer_avg<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+get_num_beers <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>xpath<span class="token punctuation">(</span><span class="token string">'./td[5]'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text_content<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tryf<span class="token punctuation">(</span>get_num_beers<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<p>I then ran through all the files, pushing each brewery into a list and finally created a Pandas DataFrame.</p>
+<div class="gatsby-highlight" data-language="python">
+      <pre class="language-python"><code class="language-python">out <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> page_num <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1510</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    page <span class="token operator">=</span> get_page<span class="token punctuation">(</span>page_num<span class="token punctuation">)</span>
+    places <span class="token operator">=</span> get_places<span class="token punctuation">(</span>page<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> p <span class="token keyword">in</span> places<span class="token punctuation">:</span>
+        out<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">{</span>
+            <span class="token string">'name'</span><span class="token punctuation">:</span> get_name<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'address'</span><span class="token punctuation">:</span> tryf<span class="token punctuation">(</span>get_address<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'city'</span><span class="token punctuation">:</span> tryf<span class="token punctuation">(</span>get_city<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'state'</span><span class="token punctuation">:</span> tryf<span class="token punctuation">(</span>get_state<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'country'</span><span class="token punctuation">:</span> tryf<span class="token punctuation">(</span>get_country<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'zip'</span><span class="token punctuation">:</span> tryf<span class="token punctuation">(</span>get_zip<span class="token punctuation">,</span> p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'score'</span><span class="token punctuation">:</span> get_score<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'ratings'</span><span class="token punctuation">:</span> get_ratings<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'beer_avg'</span><span class="token punctuation">:</span> get_beer_avg<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token string">'num_beers'</span><span class="token punctuation">:</span> get_num_beers<span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+df <span class="token operator">=</span> pd<span class="token punctuation">.</span>DataFrame<span class="token punctuation">(</span>out<span class="token punctuation">)</span></code></pre>
+      </div>
+<p>Getting the top 30 beer cities was as easy as ...</p>
+<div class="gatsby-highlight" data-language="python">
+      <pre class="language-python"><code class="language-python">df<span class="token punctuation">[</span><span class="token punctuation">(</span>df<span class="token punctuation">.</span>num_beers <span class="token operator">!=</span> <span class="token string">'-'</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">.</span>groupby<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'city'</span><span class="token punctuation">,</span> <span class="token string">'state'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>sort_values<span class="token punctuation">(</span>ascending<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">.</span>head<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span></code></pre>
+      </div></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-js","jsonName":"blog-2018-08-10-breweries-by-state-html-ba0","path":"/blog/2018/08/10/breweries-by-state.html"};window.dataPath="904/path---blog-2018-08-10-breweries-by-state-html-ba-0-bca-VAmQEkinVRL9UurZnfOvTRPeXGw";/*]]>*/</script><script src="/webpack-runtime-15e7f833d9a23aec4832.js" async=""></script><script src="/0-3252ac5db1fa2fd4f5cb.js" async=""></script><script src="/1-01b63e31a580fc19309e.js" async=""></script><script src="/app-af3e394e773b5f1704bd.js" async=""></script><script src="/component---src-templates-blog-js-cbd75d64400166cb7f86.js" async=""></script></body></html>
