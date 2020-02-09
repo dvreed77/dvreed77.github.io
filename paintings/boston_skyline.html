@@ -1,8 +1,14 @@
-<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-styled-components=""></style><style type="text/css">
-    .anchor {
-      float: left;
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.19.12"/><style data-styled-components=""></style><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
       padding-right: 4px;
-      margin-left: -20px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
     }
     h1 .anchor svg,
     h2 .anchor svg,
@@ -32,7 +38,9 @@
       if (hash !== '') {
         var element = document.getElementById(hash)
         if (element) {
-          var offset = element.offsetTop
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
           // Wait for the browser to finish rendering before scrolling.
           setTimeout((function() {
             window.scrollTo(0, offset - 0)
@@ -40,7 +48,7 @@
         }
       }
     })
-  </script><title data-react-helmet="true"></title><link as="script" rel="preload" href="/component---src-templates-painting-js-1a6f019b169808bc3f06.js"/><link as="script" rel="preload" href="/app-1f9317d268eacb5cfdac.js"/><link as="script" rel="preload" href="/webpack-runtime-7a66716d507352bb70c6.js"/><link rel="preload" href="/static/d/212/path---paintings-boston-skyline-html-0-fe-bd4-KH6FcFuUvd8MySAkUYLNmzLZIzU.json" as="fetch" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div><img src="/static/boston-e3c702fccbb4471fa984570d36862ebc-648b2.jpg" alt=""/><a href="/static/boston-e3c702fccbb4471fa984570d36862ebc.JPG">LINK</a><div><p>A painting I did of the Boston Skyline.</p></div></div></div></div><script>
+  </script><title data-react-helmet="true"></title><link as="script" rel="preload" href="/webpack-runtime-fd304070145326b7dbaa.js"/><link as="script" rel="preload" href="/commons-40a9472171916d79d15f.js"/><link as="script" rel="preload" href="/app-076a086364e33a11b426.js"/><link as="script" rel="preload" href="/component---src-templates-painting-js-68e62f1c4962895ce86a.js"/><link as="fetch" rel="preload" href="/page-data/paintings/boston_skyline.html/page-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div><img src="/static/e3c702fccbb4471fa984570d36862ebc/14b42/boston.jpg" alt=""/><a href="/static/boston-e3c702fccbb4471fa984570d36862ebc.JPG">LINK</a><div><p>A painting I did of the Boston Skyline.</p></div></div></div></div><script>
             
   function gaOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/',window[disableStr]=!0}var gaProperty='UA-37466924-1',disableStr='ga-disable-'+gaProperty;document.cookie.indexOf(disableStr+'=true')>-1&&(window[disableStr]=!0);
   if(!(navigator.doNotTrack == "1" || window.doNotTrack == "1")) {
@@ -52,4 +60,4 @@
   if (typeof ga === "function") {
     ga('create', 'UA-37466924-1', 'auto');
       ga('set', 'anonymizeIp', 1);}
-      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-painting-js","jsonName":"paintings-boston-skyline-html-0fe","path":"/paintings/boston_skyline.html"};window.dataPath="212/path---paintings-boston-skyline-html-0-fe-bd4-KH6FcFuUvd8MySAkUYLNmzLZIzU";/*]]>*/</script><script src="/webpack-runtime-7a66716d507352bb70c6.js" async=""></script><script src="/app-1f9317d268eacb5cfdac.js" async=""></script><script src="/component---src-templates-painting-js-1a6f019b169808bc3f06.js" async=""></script></body></html>
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/paintings/boston_skyline.html";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-076a086364e33a11b426.js"],"component---src-templates-painting-js":["/component---src-templates-painting-js-68e62f1c4962895ce86a.js"],"component---src-templates-project-js":["/component---src-templates-project-js-533dd1832dc5a3007759.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-cceccc1920a469a31936.js"],"component---src-pages-about-js":["/component---src-pages-about-js-d7b031fd0c75766f19b8.js"],"component---src-pages-index-js":["/component---src-pages-index-js-02b1b850c7c41ba0e73f.js"],"component---src-pages-paintings-js":["/component---src-pages-paintings-js-fda88210d2050388d460.js"]};/*]]>*/</script><script src="/component---src-templates-painting-js-68e62f1c4962895ce86a.js" async=""></script><script src="/app-076a086364e33a11b426.js" async=""></script><script src="/commons-40a9472171916d79d15f.js" async=""></script><script src="/webpack-runtime-fd304070145326b7dbaa.js" async=""></script></body></html>
