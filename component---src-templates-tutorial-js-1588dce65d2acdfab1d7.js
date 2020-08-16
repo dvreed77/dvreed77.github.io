@@ -1,2 +1,0 @@
-webpackJsonp([69872653571698],{225:function(e,n,t){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}n.__esModule=!0,n.pageQuery=void 0;var o=t(6),u=(a(o),t(2)),d=a(u),i=function(e){var n=(e.data,e.location);return"undefined"!=typeof window&&"undefined"!=typeof window.location&&(n.hash=window.location.hash),d.default.createElement("div",null,"Tutorial")};n.pageQuery="** extracted graphql fragment **";n.default=i}});
-//# sourceMappingURL=component---src-templates-tutorial-js-1588dce65d2acdfab1d7.js.map

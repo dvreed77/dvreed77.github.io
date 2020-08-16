@@ -1,2 +1,0 @@
-webpackJsonp([0x625d2da33354],{401:function(t,n){t.exports={data:{markdownRemark:{html:"<p>A painting I did of the Boston Skyline.</p>",frontmatter:{title:"Boston",date:"2017-11-08",image:{publicURL:"/static/boston-e3c702fccbb4471fa984570d36862ebc.JPG",childImageSharp:{resize:{src:"/static/boston-e3c702fccbb4471fa984570d36862ebc-648b2.jpg"}}}},fields:{path:"paintings/boston_skyline.md",slug:"/paintings/boston_skyline.html"}}},pathContext:{slug:"/paintings/boston_skyline.html"}}}});
-//# sourceMappingURL=path---paintings-boston-skyline-html-3e7fc64e636f096a10cc.js.map

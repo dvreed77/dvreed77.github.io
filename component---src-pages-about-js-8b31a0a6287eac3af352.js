@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{218:function(n,e,a){"use strict";a.r(e),a.d(e,"query",function(){return u});var t=a(1),r=a.n(t);e.default=function(n){return n.data,r.a.createElement("div",null,r.a.createElement("p",null,"Hi! Im Dave. I am a data scientist at Thomson Reuters and ..."))};var u="2430037369"}}]);
-//# sourceMappingURL=component---src-pages-about-js-8b31a0a6287eac3af352.js.map
