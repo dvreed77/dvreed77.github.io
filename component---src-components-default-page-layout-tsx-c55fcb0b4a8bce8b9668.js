@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{eb93:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),c=a.n(t);n.default=function(e){var n=e.children;return c.a.createElement("div",{className:"w-10/12 mx-auto mdx"},n)}}}]);
+//# sourceMappingURL=component---src-components-default-page-layout-tsx-c55fcb0b4a8bce8b9668.js.map
