@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{"u+QC":function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return a})),t.d(e,"pageQuery",(function(){return o}));var r=t("q1tI"),u=t.n(r);function a(n){var e=n.data;return console.log(e),u.a.createElement("div",null,"Dave")}var o="1813306768"}}]);
+//# sourceMappingURL=component---src-pages-dave-tsx-135f51b9ca4dead28a16.js.map

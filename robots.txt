@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://dvreed.com/sitemap.xml
+Host: https://dvreed.com
