@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/testPost.tsx"],"names":["Dave"],"mappings":"8FAAA,gCAMeA,UAJf,WACE,OAAO","file":"component---src-pages-test-post-tsx-f21b9c5bed91f348aab4.js","sourcesContent":["import React from \"react\";\n\nfunction Dave() {\n  return <div>Hello</div>;\n}\n\nexport default Dave;\n"],"sourceRoot":""}
